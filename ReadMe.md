@@ -3,7 +3,7 @@
 
 Two-photon imaging allows the measurement of size changes in penetrating arterioles and ascending venules.  However, the cross-sectional shape of these vessels will change when dilating or constricting [^1] [^2] [^3] [^4].  Because of these shape changes, typical diameter measurement approaches, such as the full-width at half-maximum (FWHM) that depend on a single diameter axis will generate erroneous results.  Other methods, such as thresholding, are non-robust to changes in noise or intensity.   To circumvent these problems in detecting vessel diameters, we developed the Thresholded in Radon Space (TiRS) algorithm, which is able to robustly detect diameter of penetrating vessels from two-photon microscopy.  The TiRS algorithm effectively determines the FWHM at all angles, yielding a more robust and accurate diameter than other methods.
 
-The the paper[^5] describing the TiRS method in detail is freely available [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083381/):
+The paper[^5] describing the TiRS method in detail is freely available [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4083381/):
 
 The demo Matlab code here works on .tif stacks, which can be exported from most 2-photon acquisition programs.  
 
